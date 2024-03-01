@@ -1,0 +1,133 @@
+header {
+    background-color: #ed9609;  /* Change background color here */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h1{
+    color:#efedeb
+}
+a#h1 {
+    text-decoration: none;
+  }
+  p{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h5{
+    text-align: center;
+   
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3%;
+    margin: 8% 0;
+  }
+  #b{
+    text-align: center;
+    font-size: 20px;
+    color: #ed9609;
+  }
+  #h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    
+  /* font-weight: bold;
+  font-family: HindiShiliguriBold;
+  margin-bottom: 50px;
+  border-bottom: 0px solid;
+    border-bottom-color: currentcolor;
+  width: fit-content; */
+  }
+h1 {
+    font-size: 2em;  /* Change font size here */
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px; /* Adjust spacing between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;  /* Change link color here */
+}
+
+nav a:hover {
+    color: #000;  /* Change link hover color here */
+}
+#saniul{
+    line-height: 0.5;
+    padding: auto;
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(201, 9, 9, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+#course-overview{
+    .accordion {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .accordion-item {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .accordion-header {
+        background-color: #f2af08;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .accordion-content {
+        padding: 10px;
+        display: none;
+    }
+}
